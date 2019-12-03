@@ -3,4 +3,11 @@
     <string name="app_name">實驗1</string>
     <string name="hello_message">你好</string>
     <string name="ButtonText">我是按鈕</string>
+    <string name="login_message">登入</string>
+    <string name="login_password">密碼</string>
+    <string name="RadioButton">雷達紐</string>
+    <string name="Switch">這沒用</string>
+    <string name="CheckBox">檢查箱</string>
+    <string name="login_hint">登入名稱</string>
+    <string name="login_hint2">登入密碼</string>
 </resources>
