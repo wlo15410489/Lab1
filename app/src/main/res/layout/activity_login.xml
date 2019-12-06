@@ -18,6 +18,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/editTextEmail"
         android:background="@android:drawable/edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,11 +34,18 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:drawable/edit_text"
         android:inputType="textEmailAddress"
         android:hint="@string/login_hint2"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_button" />
 
 
 </LinearLayout>
